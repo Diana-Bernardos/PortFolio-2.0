@@ -4,6 +4,7 @@ import foto from '../assets/background.png';
 import libro from '../assets/ebook-example.jpg';
 import spice from '../assets/spice.webp';
 import easyCards from '../assets/easy_4.png';
+import FinNest from '../assets/Finnest.jpg';
 
 const Portfolio = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -53,8 +54,16 @@ const Portfolio = () => {
       tech: ["JavaScript", "CSS", "HTML"],
       image: easyCards,
       link: "https://aidanarr.github.io/project-promo-X-module-2-team-3/"
+    },
+    {
+      title: "FinNest",
+      description: " Dashboar para gestión de finanzas personales",
+      tech: ["modelo de IA local (Ollama)", "Tailwind CSS", "React","Tour de bienvenida interactivo"],
+      image: FinNest,
+      link: "https://github.com/Diana-Bernardos/FinNest.2.git"
     }
   ];
+  
 
   return (
     <div className={`min-h-screen ${baseClasses} transition-all duration-500`}>
