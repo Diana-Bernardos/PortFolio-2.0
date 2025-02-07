@@ -85,7 +85,9 @@ const Portfolio = () => {
                 Full Stack Developer
               </h2>
               <p className="text-lg mb-6 leading-relaxed">
-                Profesional con experiencia en desarrollo web y aplicaciones, especializada en React y JavaScript.
+              Apasionada por el desarrollo de aplicaciones web modernas y eficientes,especializada en React y JavaScript.
+              Desarrollo de aplicaciones con IA generativa,Chatbots y automatizaciones ,para mejorar procesos y la experiencia del ususario.
+
               </p>
               <div className="flex gap-4 justify-center md:justify-start">
                 <a 
