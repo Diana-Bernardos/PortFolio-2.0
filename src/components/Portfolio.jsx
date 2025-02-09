@@ -60,7 +60,7 @@ const Portfolio = () => {
       description: " Dashboar para gestión de finanzas personales",
       tech: ["modelo de IA local (Ollama)", "Tailwind CSS", "React","Tour de bienvenida interactivo"],
       image: FinNest,
-      link: "https://github.com/Diana-Bernardos/FinNest.2.git"
+      link: "https://finnest-2.onrender.com"
     }
   ];
   
