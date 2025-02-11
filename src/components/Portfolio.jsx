@@ -5,6 +5,7 @@ import libro from '../assets/ebook-example.jpg';
 import spice from '../assets/spice.webp';
 import easyCards from '../assets/easy_4.png';
 import FinNest from '../assets/Finnest.jpg';
+import ollamachat from '../assets/Ollama chat .jpg';
 
 const Portfolio = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -61,6 +62,13 @@ const Portfolio = () => {
       tech: ["modelo de IA local (Ollama)", "Tailwind CSS", "React","Tour de bienvenida interactivo"],
       image: FinNest,
       link: "https://finnest-2.onrender.com"
+    },
+    {
+      title: "Chatbot-App",
+      description: " Chatbot personal para consultas rapidas",
+      tech: ["modelo de IA local (Ollama)", " CSS", "JavaScript","HTML"],
+      image: ollamachat,
+      link: ""
     }
   ];
   
